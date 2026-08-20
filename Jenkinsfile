@@ -14,6 +14,7 @@ pipeline{
     stage('Run application'){
       steps{
         echo "Run application.."
+        bat 'python app.py'
       }
     }
   }
